@@ -1,44 +1,41 @@
 LeetCode With Me 🧠💻
 
-Welcome to LeetCode With Me – a personal collection of coding solutions, notes, and patterns that I'm using to improve my problem-solving skills and prepare for coding interviews. Whether you're just starting out or revisiting problems, feel free to follow along or contribute!
+Welcome to LeetCode With Me — a personal collection of coding solutions, notes, and problem-solving patterns that I'm building as I grow my skills and prepare for technical interviews. Whether you're starting out, revisiting problems, or just exploring different approaches, feel free to follow along or contribute!
 
-📌 What's Inside?
-This repo contains:
+📌 What’s Inside
 
-✅ Solutions to popular LeetCode problems (Python)
+This repository includes:
 
-📄 Well-commented code for better understanding
+- Python solutions to popular LeetCode problems
 
-🧩 Patterns and strategies for problem-solving
+- Clean, well-commented code for clarity
 
-🔍 Explanations for tricky logic or edge cases (coming soon!)
+- Common problem-solving patterns and techniques
+
+- Explanations for tricky logic and edge cases (coming soon!)
 
 🚀 Goals
-Solve 300+ LeetCode questions in various categories
 
-Master data structures & algorithms
+- Solve 300+ LeetCode problems across multiple categories
 
-Build muscle memory for interviews
+- Master core data structures & algorithms
 
-Help others understand common problems
+- Build strong problem-solving muscle memory for interviews
+
+- Create resources that help others understand common challenges
 
 🤝 Contributing
 
-Want to solve problems together or improve a solution? Fork the repo, make changes, and submit a pull request!
-You can also:
+- Want to solve problems together or improve an existing solution?
 
-Suggest patterns or topics to focus on
+You can:
 
-Improve code readability or add comments
+- Fork the repo, make changes, and submit a pull request
 
-Report any bugs in existing solutions
+- Suggest new patterns or topics to explore
 
-💡 Let’s Connect
-This repo is part of my CS learning journey.
-Feel free to reach out if you’re:
+- Improve code readability, add comments, or optimize a solution
 
-Preparing for interviews
+- Report bugs or propose enhancements
 
-Interested in CS learning groups
-
-Looking to collaborate
+All contributions are appreciated!
