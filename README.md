@@ -1,41 +1,27 @@
-LeetCode With Me 🧠💻
+# 📘 LeetCode by Me
 
-Welcome to LeetCode With Me — a personal collection of coding solutions, notes, and problem-solving patterns that I'm building as I grow my skills and prepare for technical interviews. Whether you're starting out, revisiting problems, or just exploring different approaches, feel free to follow along or contribute!
+A personal repository documenting my **LeetCode problem-solving journey**, focusing on **Data Structures, Algorithms, and clean coding practices**.  
+This repo serves as both a **learning log** and a **reference** for efficient solutions.
 
-📌 What’s Inside
+---
 
-This repository includes:
+## 👋 About Me
 
-- Python solutions to popular LeetCode problems
+Hi, I’m **Ayaan Atif** — a Computer Science enthusiast passionate about **problem-solving, algorithms, and software engineering**.  
+I use LeetCode to strengthen my fundamentals and prepare for **competitive programming, university coursework, and technical interviews**.
 
-- Clean, well-commented code for clarity
+---
 
-- Common problem-solving patterns and techniques
+## 🎯 Purpose of This Repository
 
-- Explanations for tricky logic and edge cases (coming soon!)
+- 🧠 Improve logical thinking and algorithmic skills  
+- 🧩 Practice common interview-style problems  
+- 📈 Track progress over time  
+- 📚 Build a well-documented solution archive  
 
-🚀 Goals
+---
 
-- Solve 300+ LeetCode problems across multiple categories
+## 🗂️ Repository Structure
 
-- Master core data structures & algorithms
+Problems are organized by **topic** and **difficulty** where possible.
 
-- Build strong problem-solving muscle memory for interviews
-
-- Create resources that help others understand common challenges
-
-🤝 Contributing
-
-- Want to solve problems together or improve an existing solution?
-
-You can:
-
-- Fork the repo, make changes, and submit a pull request
-
-- Suggest new patterns or topics to explore
-
-- Improve code readability, add comments, or optimize a solution
-
-- Report bugs or propose enhancements
-
-All contributions are appreciated!
