@@ -6,4 +6,4 @@ class Solution:
             return str1
         if len(str1) > len(str2):
             return self.gcdOfStrings(str1[len(str2):], str2)
-        return self.gcdOfStrings(str1, str2[len(str1):])
+        return self.gcdOfStrings(str2[len(str1):], str1)
