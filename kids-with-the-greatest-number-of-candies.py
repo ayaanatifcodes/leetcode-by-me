@@ -6,5 +6,3 @@ class Solution:
         for candy in candies:
             results.append(candy + extraCandies >= maxCandies)
         return results
-
-
