@@ -1,5 +1,4 @@
 from typing import List
-
 class Solution:
     def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
         for i in range(len(flowerbed)):
@@ -8,3 +7,4 @@ class Solution:
                     flowerbed[i] = 1
                     n -= 1
         return n <= 0
+
