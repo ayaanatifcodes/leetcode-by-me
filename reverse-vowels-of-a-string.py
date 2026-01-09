@@ -1,3 +1,5 @@
+class Solution:
+    def reverseVowels(self, s: str) -> str:
         vowels = set("aeiouAEIOU") # A set of vowels
         s = list(s) # s is converted to a list       
         left, right = 0, len(s) - 1 # Left is '0' and right is length - 1 as first element is index 0
