@@ -10,4 +10,3 @@ class Solution:
             new_s[length - 1 - i] = extra_s
             
         return " ".join(new_s)
-
