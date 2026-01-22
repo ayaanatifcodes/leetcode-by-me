@@ -11,4 +11,3 @@ class Solution:
             result[i] *= postfix
             postfix *= nums[i]
         return result
-
