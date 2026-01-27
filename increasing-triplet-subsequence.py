@@ -1,12 +1,12 @@
 from typing import List
 class Solution:
     def increasingTriplet(self, nums: List[int]) -> bool:
-        first = float('inf')
+        first = float('inf') 
         second = float('inf')
         for n in nums:
-            if n <= first:
-                first = n
-            elif n <= second:
+            if n <= first: 
+                first = n 
+            elif n <= second: 
                 second = n
             else:
                 return True
