@@ -10,4 +10,3 @@ class Solution:
         else:
             new_str += word2[min_length:]
         return new_str
-
