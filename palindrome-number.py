@@ -2,8 +2,8 @@ class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:  
             return False
-        s = str(x)
-        reversed_s = ""
+        string = str(x)
+        reversed_string = ""
         for i in range(len(s) - 1, -1, -1):
-            reversed_s += s[i]
-        return s == reversed_s
+            reversed_string += s[i]
+        return string == reversed_string
