@@ -9,8 +9,6 @@ We use **Big-O notation** to describe growth rate.
 It does NOT measure actual seconds.
 It measures scalability.
 
----
-
 ## 📈 Common Time Complexities
 
 ### O(1) — Constant Time
