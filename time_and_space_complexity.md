@@ -21,8 +21,6 @@ Accessing an array index.
 
 Best possible complexity.
 
----
-
 ### O(n) — Linear Time
 Runtime grows directly with input size.
 
@@ -31,16 +29,12 @@ Looping through an array once.
 
 If input doubles → runtime doubles.
 
----
-
 ### O(n²) — Quadratic Time
 Usually caused by nested loops.
 
 If input doubles → runtime becomes 4× larger.
 
 Gets slow very fast.
-
----
 
 ### O(log n) — Logarithmic Time
 Each step reduces the problem size by half.
@@ -50,14 +44,10 @@ Binary Search.
 
 Very efficient for large inputs.
 
----
-
 ### O(n log n)
 Common in efficient sorting algorithms.
 
 Good balance between speed and practicality.
-
----
 
 ## ⚡ Rules When Calculating Time Complexity
 
@@ -69,8 +59,6 @@ Good balance between speed and practicality.
 
 3. Keep only the dominant term.
 
----
-
 ## 📦 Space Complexity
 
 Space complexity measures how much extra memory an algorithm uses as input grows.
@@ -78,28 +66,20 @@ Space complexity measures how much extra memory an algorithm uses as input grows
 We do NOT count the input itself.
 We count extra variables and data structures created.
 
----
-
 ### O(1) Space — Constant Memory
 Uses fixed number of variables.
 
 Memory does not grow with input.
-
----
 
 ### O(n) Space — Linear Memory
 Creates new data structures that grow with input size.
 
 If input doubles → memory doubles.
 
----
-
 ### O(n²) Space
 Creates structures like n × n matrices.
 
 Memory grows very quickly.
-
----
 
 ## 🧠 How to Analyze an Algorithm
 
@@ -111,8 +91,6 @@ Ask:
 4. Am I creating new lists, arrays, or maps?
 5. Does memory grow with input size?
 
----
-
 ## 🎯 Example: Sliding Window
 
 If we loop through a string once:
@@ -122,8 +100,6 @@ Time Complexity: O(n)
 If we use only a few variables:
 
 Space Complexity: O(1)
-
----
 
 ## 🏆 Final Mental Model
 
