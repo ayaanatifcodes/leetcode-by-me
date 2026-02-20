@@ -5,4 +5,4 @@ class Solution:
         maxCandies = max(candies)
         for candy in candies:
             result.append(candy + extraCandies >= maxCandies)
-        return result
+        return results
