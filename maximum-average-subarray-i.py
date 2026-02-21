@@ -2,7 +2,7 @@ class Solution:
     def findMaxAverage(self, nums: List[int], k: int) -> float:
         left = 0
         right = k
-        window_sum = sum(nums[left:right])
+        window_sum = sum(nums[left:right]) # nums[start:end] so for this 3 elements are covered
         max_sum = window_sum
         while right < len(nums):
             window_sum = window_sum - nums[left] + nums[right]
