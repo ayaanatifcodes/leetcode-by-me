@@ -10,4 +10,3 @@ class Solution:
             left += 1
             right += 1
         return max_sum / k
-
