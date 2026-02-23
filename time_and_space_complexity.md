@@ -61,7 +61,7 @@ Good balance between speed and practicality.
 
 Space complexity measures how much extra memory an algorithm uses as input grows.
 
-We do NOT count the input itself.
+We do not count the input itself.
 We count extra variables and data structures created.
 
 ### O(1) Space — Constant Memory
