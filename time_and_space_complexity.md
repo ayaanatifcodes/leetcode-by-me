@@ -6,7 +6,7 @@ Time complexity measures how the runtime of an algorithm grows as the input size
 
 We use **Big-O notation** to describe growth rate.
 
-It does NOT measure actual seconds.
+It does not measure actual seconds.
 It measures scalability.
 
 ## 📈 Common Time Complexities
