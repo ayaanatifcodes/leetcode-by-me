@@ -8,5 +8,5 @@ class Solution:
         if len(word1) > len(word2):
             new_str += word1[min_length:]
         else:
-            new_str += word2[min_length:]
-        return new_str
+            new_string += word2[min_length:]
+        return new_string
