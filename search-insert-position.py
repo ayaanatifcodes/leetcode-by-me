@@ -3,9 +3,7 @@ class Solution:
         first = 0
         last = len(nums) - 1
         while first <= last:
-            mid = (first + last) //2
-
-
+            mid = (first + last) // 2
             if nums[mid] == target:
                 return mid
             else:
@@ -13,5 +11,4 @@ class Solution:
                     first = mid + 1
                 else:
                     last = mid - 1
-
         return first
