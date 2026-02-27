@@ -9,4 +9,4 @@ class Solution:
             new_string += word1[min_length:]
         else:
             new_string += word2[min_length:]
-        return new_string
+        return string
