@@ -11,3 +11,16 @@ class Solution:
             string += word2[min_length:]
         return string
 
+# Javascript Approach        
+# /**
+# * @param {string} word1
+# * @param {string} word2
+# * @return {string}
+# */
+# var mergeAlternately = function(word1, word2) {
+#   let merged_Arr = []
+#   for(let i = 0; i < word1.length || i < word2.length; i++) {
+#       merged_Arr.push(word1[i], word2[i])
+#   }
+#   return merged_Arr.join('')
+# }
