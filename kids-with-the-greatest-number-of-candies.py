@@ -19,6 +19,5 @@ class Solution:
 #     for(let i = 0; i < candies.length; i++) {
 #         results[i] = candies[i] + extraCandies >= max_Candies
 #     }
-#
 #     return results
 # };
