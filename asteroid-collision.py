@@ -21,6 +21,4 @@ class Solution:
                 # This else runs only if the while loop did NOT break
                 # Meaning the asteroid survived all collisions
                 stack.append(asteroid)
-
         return stack  # Remaining asteroids after all collisions
-
