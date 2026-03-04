@@ -4,9 +4,9 @@ class Solution:
         j = len(height) - 1
         result = 0
         while i < j:
-            results = max(results, (j - i) * min(height[i], height[j]))
+            result = max(results, (j - i) * min(height[i], height[j]))
             if height[j] > height[i]:
                 i += 1
             else:
                 j -= 1
-        return results
+        return result
