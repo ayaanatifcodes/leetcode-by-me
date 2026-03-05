@@ -19,5 +19,3 @@ class Solution:
 #         results[i] = candies[i] + extraCandies >= max_Candies
 #     }
 #     return results
-# };
-
