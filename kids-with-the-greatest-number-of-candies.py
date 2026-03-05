@@ -7,7 +7,6 @@ class Solution:
             result.append(candy + extraCandies >= maxCandies)
         return result
 
-# /**
 #  * @param {number[]} candies
 #  * @param {number} extraCandies
 #  * @return {boolean[]}
@@ -21,3 +20,4 @@ class Solution:
 #     }
 #     return results
 # };
+
