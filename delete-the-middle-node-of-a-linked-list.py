@@ -9,4 +9,4 @@ class Solution:
             fast = fast.next.next
         if prev:
             prev.next = slow.next
-        return head
+        return hea
