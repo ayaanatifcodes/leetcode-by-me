@@ -7,7 +7,7 @@ class Solution:
             if flowerbed[i] == 0:
                 left_side = (i == 0 or flowerbed[i - 1] == 0)
                 right_side = (i == len(flowerbed) - 1 or flowerbed[i + 1] == 0)
-                if left_side and right_side:
+                if left_side_empty and right_side_empty:
                     flowerbed[i] = 1
                     n -= 1
         return n <= 0
