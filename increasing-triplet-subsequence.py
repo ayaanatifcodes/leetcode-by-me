@@ -1,13 +1,15 @@
-from typing import List
 class Solution:
-    def increasingTriplet(self, nums: List[int]) -> bool:
-        first = float('inf')
-        second = float('inf')
-        for num in nums:
-            if num <= first:
-                first = num
-            elif num <= second:
-                second = num
-            else:
-                return True
-        return False
+    def deleteMiddle(self, head: ListNode) -> ListNode:
+        if not head or not head.next:
+            return None
+        count = 0
+        temp = head
+        while temp:
+            count += 1
+            temp = temp.next
+        mid = count // 2
+        temp = head
+        for _ in range(mid - 1):
+            temp = temp.next
+        temp.next = temp.next.next
+        return head
