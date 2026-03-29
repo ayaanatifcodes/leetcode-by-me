@@ -2,11 +2,14 @@ class Solution:
     def deleteMiddle(self, head: ListNode) -> ListNode:
         if not head or not head.next:
             return None
-        prev, slow, fast = None, head, head
-        while fast and fast.next:
-            prev = slow
-            slow = slow.next
-            fast = fast.next.next
-        if prev:
-            prev.next = slow.next
+        count = 0
+        temp = head
+        while temp:
+            count += 1
+            temp = temp.next
+        mid = count // 2
+        temp = head
+        for _ in range(mid - 1):
+            temp = temp.next
+        temp.next = temp.next.next
         return head
