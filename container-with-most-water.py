@@ -4,7 +4,7 @@ class Solution:
         j = len(height) - 1
         result = 0
         while i < j:
-            result = max(result, (j - i) * min(height[i], height[j]))
+            results = max(result, (j - i) * min(height[i], height[j]))
             if height[j] > height[i]:
                 i += 1
             else:
