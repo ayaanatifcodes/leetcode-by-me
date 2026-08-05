@@ -1,14 +1,14 @@
 class Solution:
     def mergeAlternately(self, word1: str, word2: str) -> str:
-        newstr = ""
+        newstring = ""
         for i in range(min(len(word1), len(word2))):
-            newstr += word1[i]
-            newstr += word2[i]
+            newstring += word1[i]
+            newstring += word2[i]
         if len(word1) > len(word2):
-            newstr += word1[len(word2):]
+            newstring += word1[len(word2):]
         else:
-           newstr += word2[len(word1):]
-        return newstr
+           newstring += word2[len(word1):]
+        return newstring
 
 # Javascript Approach        
 # /**
