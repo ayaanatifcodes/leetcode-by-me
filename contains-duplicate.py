@@ -6,3 +6,6 @@ class Solution:
                 return True
             added_values.add(n)
         return False
+        
+# Shorter Route
+# return len(nums) != len(set(nums))
